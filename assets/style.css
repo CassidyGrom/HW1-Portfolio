@@ -1,0 +1,22 @@
+/** formatting the header **/
+
+header {
+    background-color: #ffffff;
+    height: 10vh;
+    width: 100%;
+    border-bottom: solid 7px #cccccc;
+}
+
+.logo {
+    background-color: #4aaaa5;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    float: left;
+}
+
+.logo p {
+    padding-top: 4vh;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
