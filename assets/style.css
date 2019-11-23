@@ -143,3 +143,62 @@ footer p {
 .headerwrapper .ContentArea {
     flex: 1 0 auto;
 }
+
+
+/**Flexbox and stuff for portfolio**/
+
+.FlexContainer {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-1,
+.flex-item-2,
+.flex-item-3,
+.flex-item-4,
+.flex-item-5 {
+    width: 45%;
+    height: 9vh;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+    background-size: cover;
+    background-position: center;
+    padding: 6vw 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: limegreen solid 8px;
+}
+
+.flex-item-1 span,
+.flex-item-2 span,
+.flex-item-3 span,
+.flex-item-4 span,
+.flex-item-5 span {
+    background-color: purple;
+    margin-top: auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.flex-item-1 {
+    background-image: url("../assets/images/placeholder1.jpg");
+}
+
+.flex-item-2 {
+    background-image: url("../assets/images/placeholder2.jpg");
+}
+
+.flex-item-3 {
+    background-image: url("../assets/images/placeholder3.jpg");
+}
+
+.flex-item-4 {
+    background-image: url("../assets/images/placeholder4.jpg");
+}
+
+.flex-item-5 {
+    background-image: url("../assets/images/placeholder5.jpg");
+}
