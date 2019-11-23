@@ -1,3 +1,6 @@
+/**First Page with some defaults**/
+
+
 /**peel bananas, peel peel bananas background img**/
 
 body {
@@ -102,7 +105,8 @@ h2 {
     height: auto;
     margin: 50px auto;
     padding: 20px;
-    background-color: limegreen;
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
 }
 
 .biopic {
