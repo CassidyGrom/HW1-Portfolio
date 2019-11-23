@@ -3,6 +3,9 @@
 body {
     background-image: url('../assets/images/bananas.jpg');
     /**background-color: red;**/
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
 
 
@@ -96,7 +99,7 @@ h2 {
 
 .ContentArea {
     width: 960px;
-    height: 960px;
+    height: auto;
     margin: 50px auto;
     padding: 20px;
     background-color: limegreen;
@@ -116,4 +119,23 @@ h2 {
 
 .ContentArea p {
     line-height: 2;
+}
+
+
+/**Footer styles**/
+
+footer {
+    background-color: #666666;
+    height: 8vh;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 4vh;
+}
+
+.headerwrapper .ContentArea {
+    flex: 1 0 auto;
 }
