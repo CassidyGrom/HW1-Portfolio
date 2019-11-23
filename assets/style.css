@@ -211,3 +211,44 @@ footer p {
 .flex-item-5 {
     background-image: url("../assets/images/placeholder5.jpg");
 }
+
+
+/**contact form**/
+
+.FlexContainer-2 {
+    flex-direction: column;
+}
+
+
+/**form {
+    max-width: 500px;
+}**/
+
+input,
+textarea {
+    width: 90%;
+    /** margin: 5px auto;**/
+    border: 2px solid #dddddd;
+    padding: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+    color: gray;
+    min-height: 200px;
+}
+
+button {
+    color: white;
+    background-color: #4aaaa5;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 5px 12px;
+    border-width: 0px;
+    margin-top: 10px;
+}
+
+form p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 0;
+}
