@@ -1,3 +1,11 @@
+/**peel bananas, peel peel bananas background img**/
+
+body {
+    background-image: url('../assets/images/bananas.jpg');
+    /**background-color: red;**/
+}
+
+
 /** formatting the header **/
 
 * {
@@ -94,7 +102,7 @@ h2 {
     background-color: limegreen;
 }
 
-img {
+.biopic {
     float: left;
     width: 100px!important;
     margin-right: 15px;
