@@ -83,6 +83,9 @@ h2 {
     border-right: none;
 }
 
+
+/** for the main content area**/
+
 .ContentArea {
     width: 960px;
     height: 960px;
@@ -101,4 +104,8 @@ img {
     content: “”;
     display: block;
     clear: both;
+}
+
+.ContentArea p {
+    line-height: 2;
 }
