@@ -11,6 +11,11 @@ body {
     height: auto;
 }
 
+p,
+span p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 
 /** formatting the header **/
 
@@ -91,6 +96,7 @@ h1 {
 h2 {
     font-size: 1.9rem;
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .header-wrapper nav a:last-child {
@@ -152,6 +158,7 @@ footer p {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 5vh;
 }
 
 .flex-item-1,
@@ -169,7 +176,7 @@ footer p {
     min-height: 250px;
     display: flex;
     flex-direction: column;
-    border: limegreen solid 8px;
+    /**border: limegreen solid 8px;**/
 }
 
 .flex-item-1 span,
@@ -177,10 +184,12 @@ footer p {
 .flex-item-3 span,
 .flex-item-4 span,
 .flex-item-5 span {
-    background-color: purple;
-    margin-top: auto;
-    padding: 5px 10px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 12vh;
+    padding: 10px;
     text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .flex-item-1 {
