@@ -1,21 +1,21 @@
 # HW1-Portfolio
 
-Homework one
+**Homework one**
 practice portfolio
 
-Installation
+**Installation**
 Open the index file in your browser of choice
 
-Usage
+**Usage**
 This is a great way to introduce yourself to clients or potential employeers. It allows them to see your work and fill out a contact form.
 
-Credits
-Thanks to my instrustor and TAs for the help.
+**Credits**
+Thanks to the TAs for the help.
 Sourced from some tuturials on flexbox, and w3 schools
 https://www.w3schools.com/html/html_form_input_types.asp
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-License
+**License**
 Copyright (c) [2019] [Cassidy Grom]
 
 **Just don't steal my bio photo**
